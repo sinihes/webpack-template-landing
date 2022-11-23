@@ -1,0 +1,16 @@
+/* IMPORTANTE!!!  También se pueden importar archivos css, pero con riesgo de que 
+en la producción se coloquen al principio del archivo css.*/
+//reset all browser styles
+@import '_normalize.scss';
+@import '_fonts.scss';
+/* Boostrap Library */
+@import "~bootstrap/scss/bootstrap";
+// Custom Styles
+@import '_custom.scss';
+
+
+
+
+
+
+
